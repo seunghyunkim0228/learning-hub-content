@@ -1,0 +1,124 @@
+---
+- title: Inferring Concept Drift Without Labeled Data
+  description: Concept drift occurs when the statistical properties of a target domain
+    change over time causing model performance to degrade. Drift detection is generally
+    achieved by monitoring a performance metric of interest and triggering a retraining
+    pipeline when that metric falls below some designated threshold. However, this
+    approach assumes ample labeled data is available at prediction time - an unrealistic
+    constraint for many production systems. In this report, we explore various approaches
+    for dealing with concept drift when labeled data is not readily accessible.
+  category: Research Report
+  tags:
+  - cml
+  - ffl
+  - ml
+  link: https://concept-drift.fastforwardlabs.com/
+  imgpath: https://concept-drift.fastforwardlabs.com/figures/FF22-cover.png
+  date: '2021-08-01T00:00:00Z'
+- title: Exploring Multi-Objective Hyperparameter Optimization
+  description: We develop machine learning models against the “usual suspect” metrics
+    like predictive accuracy, recall, and precision. However, these metrics are rarely
+    truly all we care about. Production models must also satisfy physical requirements
+    such as latency or memory footprint, or fairness constraints. Hyperparameter optimization
+    becomes even more challenging when we have multiple metrics to optimize. Our latest
+    research examines this “multi-objective” hyperparameter optimization scenario
+    in detail.
+  category: Research Report
+  tags:
+  - cml
+  - ffl
+  - ml
+  link: https://blog.fastforwardlabs.com/2021/07/07/exploring-multi-objective-hyperparameter-optimization.html
+  imgpath: https://www.cloudera.com/content/dam/www/marketing/images/promos/ff21-combo.png
+  date: '2021-07-07T00:00:00Z'
+- title: Deep Learning for Automatic Offline Signature Verification
+  description: Handwritten signature verification aims to automatically discriminate
+    between genuine and forged signatures, and is a particularly important challenge
+    due to the ubiquity of handwritten signatures as a form of identification in legal,
+    financial, and administrative domains. This research cycle explored the use of
+    deep metric learning approaches - specifically siamese networks - combined with
+    novel feature extraction methods to improve upon traditional techniques.
+  category: Research Report
+  tags:
+  - cml
+  - ffl
+  - ml
+  link: https://blog.fastforwardlabs.com/2021/05/26/deep-learning-for-automatic-offline-signature-verification-an-introduction.html
+  imgpath: https://blog.fastforwardlabs.com/images/hugo/metricblog/signature_pipeline.png
+  date: '2021-05-26T00:00:00Z'
+- title: Session-based Recommender Systems
+  description: Recommendation systems have become a cornerstone of modern life, spanning
+    sectors that include online retail, music and video streaming, and even content
+    publishing. These systems help us navigate the sheer volume of content on the
+    internet, allowing us to discover what’s interesting or important to us. A key
+    trend over the past few years has been session-based recommendation algorithms
+    that provide recommendations solely based on a user’s interactions in an ongoing
+    session, and which do not require the existence of user profiles or their entire
+    historical preferences.
+  category: Research Report
+  tags:
+  - cml
+  - ffl
+  - ml
+  link: https://session-based-recommenders.fastforwardlabs.com/
+  imgpath: https://session-based-recommenders.fastforwardlabs.com/figures/ff19_cover_splash.png
+  date: '2021-05-01T00:00:00Z'
+- title: Few-Shot Text Classification
+  description: Text classification can be used for sentiment analysis, topic assignment,
+    document identification, article recommendation, and more. While dozens of techniques
+    now exist for this fundamental task, many of them require massive amounts of labeled
+    data in order to be useful. Collecting annotations for your use case is typically
+    one of the most costly parts of any machine learning application. In this report,
+    we explore how latent text embeddings can be used with few (or even zero) training
+    examples and provide insights into best practices for implementing this method.
+  category: Research Report
+  tags:
+  - cml
+  - ffl
+  - ml
+  link: https://few-shot-text-classification.fastforwardlabs.com/
+  imgpath: https://few-shot-text-classification.fastforwardlabs.com/figures/ff18-cover-splash.png
+  date: '2020-12-01T00:00:00Z'
+- title: Structural Time Series
+  description: Time series data is ubiquitous. This report examines generalized additive
+    models, which give us a simple, flexible, and interpretable means for modeling
+    time series by decomposing them into structural components. We look at the benefits
+    and trade-offs of taking a curve-fitting approach to time series, and demonstrate
+    its use via Facebook’s Prophet library on a demand forecasting problem.
+  category: Research Report
+  tags:
+  - cml
+  - ffl
+  - ml
+  link: https://structural-time-series.fastforwardlabs.com/
+  imgpath: https://structural-time-series.fastforwardlabs.com/figures/ff16-cover-splash.png
+  date: '2020-10-31T00:00:00Z'
+- title: Meta Learning
+  description: In contrast to how humans learn, deep learning algorithms need vast
+    amounts of data and compute and may yet struggle to generalize. Humans are successful
+    in adapting quickly because they leverage their knowledge acquired from prior
+    experience when faced with new problems. In this report, we explain how meta-learning
+    can leverage previous knowledge acquired from data to solve novel tasks quickly
+    and more efficiently during test time
+  category: Research Report
+  tags:
+  - cml
+  - ffl
+  - ml
+  link: https://meta-learning.fastforwardlabs.com/
+  imgpath: https://meta-learning.fastforwardlabs.com/figures/ff15-cover-splash.png
+  date: '2020-09-30T00:00:00Z'
+- title: Automated Question Answering
+  description: Automated question answering is a user-friendly way to extract information
+    from data using natural language. Thanks to recent advances in natural language
+    processing, question answering capabilities from unstructured text data have grown
+    rapidly. This blog series offers a walk-through detailing the technical and practical
+    aspects of building an end-to-end question answering system.
+  category: Research Report
+  tags:
+  - cml
+  - ffl
+  - ml
+  link: https://qa.fastforwardlabs.com/
+  imgpath: https://www.cloudera.com/content/dam/www/marketing/images/cffl/ff14-combo.png
+  date: '2021-07-22T00:00:00Z'

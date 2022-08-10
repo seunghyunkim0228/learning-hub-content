@@ -1,0 +1,292 @@
+---
+- title: Automated Metrics for Evaluating Text Style Transfer
+  description: This post serves as Part 3 of a three part blog series on the NLP task of Text Style Transfer. In this post, we expand our modeling efforts to a more challenging dataset and propose a set of custom evaluation metrics specific to our task.
+  category: Blogpost
+  tags:
+    - cml
+    - ml
+    - ffl
+    - nlp
+  link: https://blog.fastforwardlabs.com/2022/07/11/automated-metrics-for-evaluating-text-style-transfer.html
+  imgpath: https://blog.fastforwardlabs.com/images/hugo/image3-tst3.png
+  date: "2022-07-11T00:00:00Z"
+- title: Cloudera's Applied ML Prototype Catalog Continues to Grow
+  description: The hardworking team at Cloudera’s Fast Forward Labs has hit it out of the park once again! We are happy to announce the release of two new AMPs - Video Classification and Continuous Model Monitoring -- including video demos of how each of them work! 
+  category: Blogpost
+  tags:
+    - cml
+    - ml
+    - ffl
+  link: https://blog.cloudera.com/clouderas-applied-ml-prototype-catalog-continues-to-grow/
+  imgpath: https://ndu0e1pobsf1dobtvj5nls3q-wpengine.netdna-ssl.com/wp-content/uploads/2022/06/Screen-Shot-2022-06-10-at-9.40.53-AM.png
+  date: "2022-06-10T00:00:00Z"
+- title: The Power of Exploratory Data Analysis and Visualization for ML
+  description: How to use the new Data Discovery and Visualization feature in Cloudera Machine Learning
+  category: Blogpost
+  tags:
+    - cml
+    - ml
+    - ffl
+  link: https://blog.cloudera.com/the-power-of-exploratory-data-analysis-for-ml/
+  imgpath: https://ndu0e1pobsf1dobtvj5nls3q-wpengine.netdna-ssl.com/wp-content/uploads/2022/06/8-1536x839.png
+  date: "2022-06-03T00:00:00Z"
+- title: Neutralizing Subjectivity Bias with HuggingFace Transformers
+  description: This post serves as Part 2 of a three part blog series on the NLP task of Text Style Transfer. In this post, we introduce the applied use case through which we'll explore text style transfer and discuss our modeling approach.
+  category: Blogpost
+  tags:
+    - cml
+    - ml
+    - ffl
+    - nlp
+  link: https://blog.fastforwardlabs.com/2022/05/05/neutralizing-subjectivity-bias-with-huggingface-transformers.html
+  imgpath: https://blog.fastforwardlabs.com/images/hugo/fig7-tst2.png
+  date: "2022-05-05T00:00:00Z"
+- title: An Introduction to Text Style Transfer
+  description: Today’s world of natural language processing (NLP) is driven by powerful transformer-based models that can automatically caption images, answer open-ended questions, engage in free dialog, and summarize long-form bodies of text – of course, with varying degrees of success. Success here is typically measured by the accuracy (Did the model produce a correct response?) and fluency (Is the output coherent in the native language?) of the generated text. While these two measures of success are of top priority, they neglect a fundamental aspect of language – style.
+  category: Blogpost
+  tags:
+    - cml
+    - ml
+    - ffl
+  link: https://blog.fastforwardlabs.com/2022/03/22/an-introduction-to-text-style-transfer.html
+  imgpath: https://blog.fastforwardlabs.com/images/hugo/parallel_nonparallel-1647959058.png
+  date: "2022-03-22T00:00:00Z"
+- title: One Line Away from your Data
+  description: Data Science tools, algorithms, and practices are rapidly evolving to solve business problems on an unprecedented scale. This makes data science one of the most exciting fields to be in. As exciting as it is, practitioners face their fair share of challenges. There are well-known barriers that slow down predictive modeling or application development. Finding the right data and getting access to it are two of the top pain points we hear from our customers.
+  category: Blogpost
+  tags:
+    - cml
+    - ml
+  link: https://blog.cloudera.com/one-line-away-from-your-data/
+  imgpath: https://ndu0e1pobsf1dobtvj5nls3q-wpengine.netdna-ssl.com/wp-content/uploads/2021/11/Screen-Shot-2021-11-03-at-2.46.37-PM-273x182.png
+  date: "2022-03-21T00:00:00Z"
+- title: The Most Unique Snowflake
+  description: Okay, I admit, the title is a little click-baity, but it does hold some truth! I spent the holidays up in the mountains, and if you live in the northern hemisphere like me, you know that means that I spent the holidays either celebrating or cursing the snow. When I was a kid, during this time of year we would always do an art project making snowflakes. We would bust out the scissors, glue, paper, string, and glitter, and go to work. At some point, the teacher would undoubtedly pull out the big guns and blow our minds with the fact that every snowflake in the entire world for all of time is different and unique (people just love to oversell unimpressive snowflake features).
+  category: Blogpost
+  tags:
+    - cml
+    - ml
+  link: https://blog.cloudera.com/the-most-unique-snowflake/
+  imgpath: https://blog.cloudera.com/wp-content/uploads/2022/02/image2-273x182.jpg
+  date: "2022-02-01T00:00:00Z"
+- title: Why and How Convolutions Work for Video Classification
+  description:
+    Video classification is perhaps the simplest and most fundamental of
+    the tasks in the field of video understanding. In this blog post, we’ll take a
+    deep dive into why and how convolutions work for video classification. Our goal
+    is to help the reader develop an intuition about the relationship between space
+    (the image part of video) and time (the sequence part of video), and pave the
+    way to a deep understanding of video classification algorithms.
+  category: Blogpost
+  tags:
+    - cml
+    - ml
+    - ffl
+  link: https://blog.fastforwardlabs.com/2022/01/31/why-and-how-convolutions-work-for-video-classification.html
+  imgpath: https://blog.fastforwardlabs.com/images/hugo/Fig_01_swing_video_classification-1643667789.png
+  date: "2022-01-31T00:00:00Z"
+- title: "An Introduction to Video Understanding: Capabilities and Applications"
+  description:
+    Video footage constitutes a significant portion of all data in the
+    world. The 30 thousand hours of video uploaded to YouTube every hour is a part
+    of that data; another portion is produced by 770 million surveillance cameras
+    globally.  In addition to being plentiful, video data has tremendous capacity
+    to store useful information. Its vastness, richness, and applicability make the
+    understanding of video a key activity within the field of computer vision.
+  category: Blogpost
+  tags:
+    - cml
+    - ml
+    - ffl
+  link: https://blog.fastforwardlabs.com/2021/12/14/an-introduction-to-video-understanding-capabilities-and-applications.html
+  imgpath: https://blog.fastforwardlabs.com/images/hugo/video_classification-1639064585.png
+  date: "2021-12-14T00:00:00Z"
+- title:
+    "Make Your Models Matter: What It Takes to Maximize Business Value from Your
+    Machine Learning Initiatives"
+  description:
+    We are excited by the endless possibilities of machine learning (ML).
+    We recognise that experimentation is an important component of any enterprise
+    machine learning practice. But, we also know that experimentation alone doesn’t
+    yield business value. Organizations need to usher their ML models out of the lab
+    (i.e., the proof-of-concept phase) and into deployment, which is otherwise known
+    as being “in production”
+  category: Blogpost
+  tags:
+    - cml
+    - ml
+    - ffl
+  link: https://blog.cloudera.com/make-your-models-matter-what-it-takes-to-maximize-business-value-from-your-machine-learning-initiatives/
+  imgpath: https://ndu0e1pobsf1dobtvj5nls3q-wpengine.netdna-ssl.com/wp-content/uploads/2021/11/GettyImages-1003122870-273x182.jpg
+  date: "2021-11-19T00:00:00Z"
+- title: New Applied ML Prototypes Now Available in Cloudera Machine Learning
+  description:
+    It’s no secret that Data Scientists have a difficult job. It feels
+    like a lifetime ago that everyone was talking about data science as the sexiest
+    job of the 21st century. Heck, it was so long ago that people were still meeting
+    in person! Today, the sexy is starting to lose its shine. There’s recognition
+    that it’s nearly impossible to find the unicorn data scientist that was the apple
+    of every CEO’s eye in 2012. You know the one, the mathematician / statistician
+    / computer scientist / data engineer / industry expert. It turns out it’s hard
+    to find all that awesome packed into a single brain.
+  category: Blogpost
+  tags:
+    - cml
+    - ml
+    - ffl
+  link: https://blog.cloudera.com/new-applied-ml-prototypes-now-available-in-cloudera-machine-learning/
+  imgpath: https://ndu0e1pobsf1dobtvj5nls3q-wpengine.netdna-ssl.com/wp-content/uploads/2021/11/todd-diemer-181900-273x182.jpg
+  date: "2021-11-17T00:00:00Z"
+- title: The Rise of Unstructured Data
+  description:
+    The word “data” is ubiquitous in narratives of the modern world. And
+    data, the thing itself, is vital to the functioning of that world. This blog discusses
+    quantifications, types, and implications of data. If you’ve ever wondered how
+    much data there is in the world, what types there are and what that means for
+    AI and businesses, then click ”learn more”
+  category: Blogpost
+  tags:
+    - cml
+    - ml
+    - ffl
+  link: https://blog.cloudera.com/the-rise-of-unstructured-data/
+  imgpath: https://ndu0e1pobsf1dobtvj5nls3q-wpengine.netdna-ssl.com/wp-content/uploads/2021/11/GettyImages-1190318734-273x182.jpg
+  date: "2021-11-15T00:00:00Z"
+- title: Switching from CPUs to GPUs for NYC Taxi Fare Predictions with NVIDIA RAPIDS
+  description:
+    Have you ever asked a data scientist if they wanted their code to run
+    faster? You would probably get a more varied response asking if the earth is flat.
+    It really isn’t any different from anything else in tech, faster is almost always
+    better. One of the best ways to make a substantial improvement in processing time
+    is to, if you haven’t already, switched from CPUs to GPUs. Thanks to pioneers
+    like Andrew NG and Fei-Fei Li, GPUs have made headlines for performing particularly
+    well with deep learning techniques.
+  category: Blogpost
+  tags:
+    - cml
+    - ml
+    - ffl
+  link: https://blog.cloudera.com/switching-from-cpus-to-gpus-for-nyc-taxi-fare-predictions-with-nvidia-rapids/
+  imgpath: https://ndu0e1pobsf1dobtvj5nls3q-wpengine.netdna-ssl.com/wp-content/uploads/2021/11/Cloudera_Image_bank-6-273x182.jpg
+  date: "2021-11-03T00:00:00Z"
+- title: Automatic Summarization from TextRank to Transformers
+  description:
+    To train a machine learning model you generally need to move all the
+    data to a single machine or, failing that, to a cluster of machines in a data
+    center. This can be difficult for two reasons. First, there can be privacy barriers.
+    A smartphone user may not want to share their baby photos with an application
+    developer. A user of industrial equipment may not want to share sensor data with
+    the manufacturer or a competitor. And healthcare providers are not totally free
+    to share their patients’ data with drug companies. Second, there are practical
+    engineering challenges. A huge amount of valuable training data is created on
+    hardware at the edges of slow and unreliable networks, such as smartphones, IoT
+    devices, or equipment in far-flung industrial facilities such as mines and oil
+    rigs. Communication with such devices can be slow and expensive. This research
+    report and its associated prototype introduce federated learning, an algorithmic
+    solution to these problems.
+  category: Blogpost
+  tags:
+    - cml
+    - ml
+    - ffl
+  link: https://blog.fastforwardlabs.com/2021/09/22/automatic-summarization-from-textrank-to-transformers.html
+  imgpath: https://blog.fastforwardlabs.com/images/hugo/summarize_blog/summarize_crop.png
+  date: "2021-09-22T00:00:00Z"
+- title: Extractive Summarization with Sentence-BERT
+  description:
+    In extractive summarization, the task is to identify a subset of text
+    (e.g., sentences) from a document that can then be assembled into a summary. Overall,
+    we can treat extractive summarization as a recommendation problem. That is, given
+    a query, recommend a set of sentences that are relevant. The query here is the
+    document, relevance is a measure of whether a given sentence belongs in the document
+    summary.
+  category: Blogpost
+  tags:
+    - cml
+    - ml
+    - ffl
+  link: https://blog.fastforwardlabs.com/2021/09/21/extractive-summarization-with-sentence-bert.html
+  imgpath: https://blog.fastforwardlabs.com/images/hugo/extractabert_blog/extractivesummodel.png
+  date: "2021-09-21T00:00:00Z"
+- title: How (and when) to enable early stopping for Gensim's Word2Vec
+  description:
+    The Gensim library is a staple of the NLP stack. While it primarily
+    focuses on topic modeling and similarity for documents, it also supports several
+    word embedding algorithms, including what is likely the best-known implementation
+    of Word2Vec.
+  category: Blogpost
+  tags:
+    - cml
+    - ffl
+    - ml
+  link: https://blog.fastforwardlabs.com/2021/09/20/how-and-when-to-enable-early-stopping-for-gensims-word2vec.html
+  imgpath: https://blog.fastforwardlabs.com/images/hugo/gensim_blog/earlystopping_schematic.png
+  date: "2021-09-20T00:00:00Z"
+- title: Exploring Multi-Objective Hyperparameter Optimization
+  description:
+    The machine learning life cycle is more than data + model = API. We
+    know there is a wealth of subtlety and finesse involved in data cleaning and feature
+    engineering. In the same vein, there is more to model-building than feeding data
+    in and reading off a prediction. ML model building requires thoughtfulness both
+    in terms of which metric to optimize for a given problem, and how best to optimize
+    your model for that metric!
+  category: Blogpost
+  tags:
+    - cml
+    - ffl
+    - ml
+  link: https://blog.fastforwardlabs.com/2021/07/07/exploring-multi-objective-hyperparameter-optimization.html
+  imgpath: https://blog.fastforwardlabs.com/images/hugo/Single-objective-surrogate-function-1625741671.png
+  date: "2021-07-07T00:00:00Z"
+- title: Deep Metric Learning for Signature Verification
+  description:
+    This post provides an overview of metric learning loss functions (contrastive,
+    triplet, quadruplet, and group loss), and results from applying contrastive and
+    triplet loss to the task of signature verification.
+  category: Blogpost
+  tags:
+    - cml
+    - ffl
+    - ml
+  link: https://blog.fastforwardlabs.com/2021/06/09/deep-metric-learning-for-signature-verification.html
+  imgpath: https://blog.fastforwardlabs.com/images/hugo/metricblog/onlinetraining.png
+  date: "2021-06-09T00:00:00Z"
+- title: Pretrained Models as a Strong Baseline for Automatic Signature Verification
+  description:
+    This post describes how pretrained image classification models can
+    be used as strong baselines for the task of signature verification.
+  category: Blogpost
+  tags:
+    - cml
+    - ffl
+    - ml
+  link: https://blog.fastforwardlabs.com/2021/05/27/pretrained-models-as-a-strong-baseline-for-automatic-signature-verification.html
+  imgpath: https://blog.fastforwardlabs.com/images/hugo/metricblog/feature_extraction_pretrained.png
+  date: "2021-05-27T00:00:00Z"
+- title: "Deep Learning for Automatic Offline Signature Verification: An Introduction"
+  description:
+    This post provides an overview of the signature verification task,
+    use cases, and challenges.
+  category: Blogpost
+  tags:
+    - cml
+    - ffl
+    - ml
+  link: https://blog.fastforwardlabs.com/2021/05/26/deep-learning-for-automatic-offline-signature-verification-an-introduction.html
+  imgpath: https://blog.fastforwardlabs.com/images/hugo/metricblog/signature_pipeline.png
+  date: "2021-05-26T00:00:00Z"
+- title: Representation Learning 101 for Software Engineers
+  description:
+    " Good representations of data (e.g., text, images) are critical for
+    solving many tasks (e.g., search or recommendations). Deep representation learning
+    yields state of the art results when used to create these representations. In
+    this article, we review methods for representation learning and walk through an
+    example using pretrained models."
+  category: Blogpost
+  tags:
+    - cml
+    - ffl
+    - ml
+  link: https://blog.fastforwardlabs.com/2020/11/15/representation-learning-101-for-software-engineers.html
+  imgpath: https://blog.fastforwardlabs.com/images/hugo/representationlearning.png
+  date: "2020-11-15T00:00:00Z"

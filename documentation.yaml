@@ -1,0 +1,61 @@
+---
+- title: Cloudera Machine Learning Overview
+  description: Machine learning has become one of the most critical capabilities for
+    modern businesses to grow and stay competitive today. From automating internal
+    processes to optimizing the design, creation, and marketing processes behind virtually
+    every product consumed, ML models have permeated almost every aspect of our work
+    and personal lives.
+  category: Documentation
+  tags:
+  - cml
+  - ml
+  link: https://docs.cloudera.com/r/cml-product-overview
+  imgpath:
+  date: '2021-11-01T00:00:00Z'
+- title: Creating a Project with ML Runtimes Variants
+  description: Projects create an independent working environment to hold your code,
+    configuration, and libraries for your analysis. This topic describes how to create
+    a project with ML Runtimes variants in Cloudera Machine Learning.
+  category: Documentation
+  tags:
+  - cml
+  - ml
+  link: https://docs.cloudera.com/r/cml-create-project
+  imgpath:
+  date: '2021-11-01T00:00:00Z'
+- title: Applied ML Prototypes (AMPs)
+  description: Applied ML Prototypes (AMPs) provide reference example machine learning
+    projects in Cloudera Machine Learning. More than simplified quickstarts or tutorials,
+    AMPs are fully-developed expert solutions created by Cloudera’s research arm,
+    Fast Forward Labs.
+  category: Documentation
+  tags:
+  - cml
+  - ml
+  link: https://docs.cloudera.com/r/cml-amps
+  imgpath:
+  date: '2021-11-01T00:00:00Z'
+- title: Creating and Deploying a Model
+  description: Using Cloudera Machine Learning, you can create any function within
+    a script and deploy it to a REST API as a model. In a machine learning project,
+    this will typically be a predict function that will accept an input and return
+    a prediction based on the model's parameters.
+  category: Documentation
+  tags:
+  - cml
+  - ml
+  link: https://docs.cloudera.com/r/cml-create-model
+  imgpath:
+  date: '2021-11-01T00:00:00Z'
+- title: Analytical Applications
+  description: This feature gives data scientists a way to create ML web applications/dashboards
+    and easily share them with other business stakeholders. Applications can range
+    from single visualizations embedded in reports, to rich dashboard solutions such
+    as Tableau. They can be interactive or non-interactive.
+  category: Documentation
+  tags:
+  - cml
+  - ml
+  link: https://docs.cloudera.com/r/cml-create-application
+  imgpath:
+  date: '2021-11-01T00:00:00Z'

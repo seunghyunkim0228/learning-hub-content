@@ -1,0 +1,115 @@
+- title: Iceberg connection support
+  description: |- 
+    While businesses adopt and build their open lakehouse built with Apache Iceberg on CDP they need ease of data access so data scientists don’t need to spend their time figuring out connection dependencies and configurations.
+
+    CML’s Data Connection and Snippet support simplify data access in CDP. Data scientists can use the cml.data library to gain access to the Data Lake via Spark or query their Virtual Warehouse with Hive or Impala. With recent improvements to the cml.data library, CML Snippets now fully support the Iceberg table format for all Spark, Hive, and Impala data connections.
+  category: Feature
+  icon: announcement
+  tags:
+  - data-discovery-exploration
+  - cdp
+  - cml
+  link: https://blog.cloudera.com/one-line-away-from-your-data/
+  date: ‘2022-09-01T00:00:00Z’
+  targetAudiences: ["PC"]
+- title: Data Discovery & Visualization
+  description: |-
+    The Data Discovery and Visualization experience ships with preconfigured Data Connections, a database browser, interactive SQL editor, drag-and-drop Visual Dashboarding, and Connection Snippets.
+    These new capabilities speed up the development process by cutting down the time spent on finding, exploring, understanding, and accessing the data. Data Scientists need to fully understand their data in order to properly analyze it, build models, and power ML use cases. To reduce friction between the different steps of discovery and exploration and support collaboration within the data science team, CML ships all tools to accelerate the data science process and reduce the time to insights.
+  category: Feature
+  icon: announcement
+  tags:
+  - data-discovery-exploration
+  - cdp
+  - cml
+  - hdp
+  link: https://docs.cloudera.com/r/data-discovery-visualization
+  date: '2022-06-01T00:00:00Z'
+  targetAudiences: ["PC"]
+- title: Data Connections and Snippets
+  description: |-
+    Cloudera Machine Learning now offers Snippet to connect to Data Sources available within the CDP Environment. Administrators can configure custom Spark, Hive or Impala Virtual Warehouse data connections manually or they can use CML’s features to autodetect and configure all connections from the same CDP Environment. Data Scientists can then access the preconfigured Data Connections from their ML Projects.
+
+    The Data Connection and Snippet support simplifies getting started on ML Projects. Once a Project is created, the first time the users create a session they are offered code snippets to create a connection to their selected data store. Users don’t need to look up the connection boilerplate from the documentation or copy an example code from other projects, they can easily initiate the connection via CML’s connection library and immediately start solving their business problems.
+  category: Feature
+  icon: announcement
+  tags:
+  - data-discovery-exploration
+  - cdp
+  - cml
+  - hdp
+  link: https://docs.cloudera.com/r/data-connections-snippets
+  date: '2022-01-01T00:00:00Z'
+  targetAudiences: ["PC", "PVC"]
+- title: Project-level ML Runtime configuration in CML
+  description: "Project-level configuration for ML Runtimes adds the ability to limit
+    the available Runtime selection for a particular project. Users, project owners
+    who would like to have more control over the available ML Runtimes for their project,
+    or would like to keep up to date with new ML Runtimes, can now specify the preferred
+    list of images available for a project.\n\nWith the broad set of released ML Runtimes
+    and available customization options, choosing the right Runtime for a project
+    might be difficult and project owners might prefer controlling the available options
+    themselves. This feature available from the user interface now gives a convenient
+    way to limit the available options by adding runtimes based on the supported Editor,
+    Kernel, Edition and Version. It also provides a way to indicate and include newly
+    released versions of the configured runtimes via a simple mouse click. \n\nTo
+    get started, try creating a new project, where now Basic and Advanced options
+    are available for selecting and pre-populating the project with the selected ML
+    Runtimes. \n\nExisting projects can keep on using any Runtime that’s available
+    in the Workspace until the list is not specified under the project settings."
+  category: Feature
+  icon: process
+  tags:
+  - runtimes
+  - cdp
+  - cml
+  - hdp
+  link: https://docs.cloudera.com/r/project-level-runtime-configurations
+  date: '2022-01-01T00:00:00Z'
+  targetAudiences: ["PC", "PVC"]
+- title: Cloudera Machine Learning APIv2
+  description: |-
+    Cloudera Machine Learning’s APIv2 enables automated project lifecycle management, CI/CD integration, and more.  APIv2 provides CML users with the ability to programmatically create, read, update and delete projects and workloads, including jobs, models and applications. This means that users can automate creation and setup of projects, or trigger actions such as retraining or deploying a new version of a model as part of the project lifecycle. All this is enabled from within the product or from an external scheduling or CI/CD tool, using the Python client library or HTTPS REST API.
+
+    In addition to creating production-ready ML models and applications, machine learning engineers must also take those models and applications to production, which often involves deploying to a different environment. Further, these applications are rarely deployed once and left alone. Rather, many models will be updated with further versions as modellers continue to iterate, or as the profile of incoming data changes. These activities are challenging and susceptible to error if they can only be done manually through a UI. CML’s API now allows ML engineers to script these deployment and maintenance events, schedule or automate them, or integrate with external process and approval workflows by calling APIs based on a suitable trigger.
+  category: Release
+  icon: release
+  tags:
+  - api-v2
+  - announcement
+  - cml
+  link: https://docs.cloudera.com/machine-learning/cloud/api/topics/ml-api-v2.html
+  date: '2021-09-27T00:00:00Z'
+  targetAudiences: ["PC", "PVC"]
+- title: Apache Spark 3 is now available in CML
+  description: |-
+    Cloudera Machine Learning now offers multi-version Spark support. Users of CML can select the Spark version they want to use for each workload. With multi-version Spark support, users now have access to Spark 3 and can take advantage of the 30% performance and stability improvements in the latest version of Spark (based on internal TPC-DS benchmarks).
+
+    Data Scientists can run workloads in both Spark 2 and Spark 3 within the same CML Workspace, thus maintaining backwards compatibility with existing workloads while developing new applications on the latest version of Spark. Spark can be configured as a Runtime Addon per workload so users can migrate and test all of their scheduled jobs one-by-one within a single Project.
+  category: Feature
+  icon: feature
+  tags:
+  - spark
+  - cml
+  - ml
+  link: https://community.cloudera.com/t5/What-s-New-Cloudera/Apache-Spark-3-is-now-available-in-Cloudera-Machine-Learning/ba-p/331584
+  date: '2021-09-21T00:00:00Z'
+  targetAudiences: ["PC", "PVC"]
+- title: Applied ML Prototypes (AMPs)
+  description: |-
+    Applied ML Prototypes (AMPs) provide reference example machine learning projects in Cloudera Machine Learning. More than simplified quickstarts or tutorials, AMPs are fully-developed expert solutions created by Cloudera’s research arm, Fast Forward Labs.
+
+    These solutions to common problems in the machine learning field demonstrate how to fully use the power of Cloudera Machine Learning. AMPs show you how to create CML projects to solve your own use cases.
+
+    AMPs are available to install and run from the CML user interface. As new AMPs are developed, they will become available to you for your study and use.
+  category: Feature
+  icon: feature
+  tags:
+  - ffl
+  - amps
+  - cml
+  - ml
+  link: https://cloudera.github.io/Applied-ML-Prototypes/#/
+  imgpath: https://cloudera.github.io/Applied-ML-Prototypes/images/hero.jpg
+  date: '2021-02-03T00:00:00Z'
+  targetAudiences: ["PC", "PVC"]
