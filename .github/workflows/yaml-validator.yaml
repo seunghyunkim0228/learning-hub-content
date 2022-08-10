@@ -1,0 +1,25 @@
+name: YAML schema validator
+on: [push]
+
+jobs:
+  yaml-schema-validation:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: nrkno/yaml-schema-validator-github-action@v4
+      with:
+        schema: schemas/schema.yaml
+        target: blogposts.yaml
+    - uses: nrkno/yaml-schema-validator-github-action@v4
+      with:
+        schema: schemas/schema.yaml
+        target: documentation.yaml
+    - uses: nrkno/yaml-schema-validator-github-action@v4
+      with:
+        schema: schemas/schema.yaml
+        target: feature.yaml
+    - uses: nrkno/yaml-schema-validator-github-action@v4
+      with:
+        schema: schemas/schema.yaml
+        target: research.yaml
+
