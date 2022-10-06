@@ -1,15 +1,15 @@
 ---
-- title: Automated Metrics for Evaluating Text Style Transfer
-  description: This post serves as Part 3 of a three part blog series on the NLP task of Text Style Transfer. In this post, we expand our modeling efforts to a more challenging dataset and propose a set of custom evaluation metrics specific to our task.
-  category: Blogpost
-  tags:
-    - cml
-    - ml
-    - ffl
-    - nlp
-  link: https://blog.fastforwardlabs.com/2022/07/11/automated-metrics-for-evaluating-text-style-transfer.html
-  imgpath: https://blog.fastforwardlabs.com/images/hugo/image3-tst3.png
-  date: "2022-07-11T00:00:00Z"
+# - title: Automated Metrics for Evaluating Text Style Transfer
+#   description: This post serves as Part 3 of a three part blog series on the NLP task of Text Style Transfer. In this post, we expand our modeling efforts to a more challenging dataset and propose a set of custom evaluation metrics specific to our task.
+#   category: Blogpost
+#   tags:
+#     - cml
+#     - ml
+#     - ffl
+#     - nlp
+#   link: https://blog.fastforwardlabs.com/2022/07/11/automated-metrics-for-evaluating-text-style-transfer.html
+#   imgpath: https://blog.fastforwardlabs.com/images/hugo/image3-tst3.png
+#   date: "2022-07-11T00:00:00Z"
 - title: Cloudera's Applied ML Prototype Catalog Continues to Grow
   description: The hardworking team at Cloudera’s Fast Forward Labs has hit it out of the park once again! We are happy to announce the release of two new AMPs - Video Classification and Continuous Model Monitoring -- including video demos of how each of them work! 
   category: Blogpost
