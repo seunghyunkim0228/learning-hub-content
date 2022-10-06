@@ -1,4 +1,17 @@
 ---
+- title: Cloudera Machine Learning Overview1
+  description: Machine learning has become one of the most critical capabilities for
+    modern businesses to grow and stay competitive today. From automating internal
+    processes to optimizing the design, creation, and marketing processes behind virtually
+    every product consumed, ML models have permeated almost every aspect of our work
+    and personal lives1.
+  category: Documentation
+  tags:
+  - cml
+  - ml
+  link: https://docs.cloudera.com/r/cml-product-overview
+  imgpath:
+  date: '2022-11-01T00:00:00Z'
 - title: Cloudera Machine Learning Overview
   description: Machine learning has become one of the most critical capabilities for
     modern businesses to grow and stay competitive today. From automating internal
